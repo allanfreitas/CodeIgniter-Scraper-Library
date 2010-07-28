@@ -87,7 +87,7 @@ class Scraper {
      *
      *  $table_rows = $this->scraper->find(array(
      *        'name' => 'rows', // optional - defaults to 'results'
-     *        'query' => '/table[@id=”mytable”]/tbody//tr', //required
+     *        'query' => '/table[@id="mytable"]/tbody//tr', //required
      *        'subqueries' => array( // optional - but requires associative array for ease of use
      *            'first_name' => '//td[1]',
      *            'last_name' => '//td[2]',
@@ -110,7 +110,7 @@ class Scraper {
             if(!isset($xpaths['query']))
                 return(FALSE);
             if(!isset($xpaths['name']))
-                $master_name = “results”;
+                $master_name = "results";
             else
                 $master_name = $xpaths['name'];
             
