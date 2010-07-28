@@ -46,7 +46,7 @@ class Scraper {
      *
      */
     
-    function capture_dom($url = рс, $raw_file = null) {
+    function capture_dom($url = "", $raw_file = null) {
         if(empty($url)):
             if(empty($raw_file))
                 return(FALSE);
