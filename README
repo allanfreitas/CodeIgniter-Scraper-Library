@@ -1,0 +1,6 @@
+====================================================================================================
+	GETTING STARTED
+====================================================================================================
+
+1.	Copy the Scraper.php library file to your ./system/application/libraries directory
+2.	(optional) Add the library to your autoload.php file if you plan to frequently reference the library
